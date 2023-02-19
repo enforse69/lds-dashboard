@@ -22,7 +22,7 @@
 
 
 .sidebar.open {
- width: 300px;
+ width: 250px;
 }
 
 .sidebar .logo-details {
@@ -211,7 +211,7 @@
 }
 
 .sidebar.open li.profile {
- width: 300px;
+ width: 250px;
 }
 
 .sidebar li .profile-details {
@@ -269,8 +269,9 @@
 }
 
 .sidebar.open~.home-section {
+ background-color: #bb3838;
  left: 300px;
- width: calc(100% - 300px);
+ width: calc(100% - 250px);
 }
 
 
