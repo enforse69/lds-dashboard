@@ -22,7 +22,7 @@
 
 
 .sidebar.open {
- width: 250px;
+ width: 100%;
 }
 
 .sidebar .logo-details {
@@ -201,7 +201,7 @@
 .sidebar li.profile {
  position: fixed;
  height: 60px;
- width: 78px;
+ width: 98px;
  left: 0;
  bottom: -8px;
  padding: 10px 14px;
@@ -211,7 +211,7 @@
 }
 
 .sidebar.open li.profile {
- width: 250px;
+ width: 100%;
 }
 
 .sidebar li .profile-details {
@@ -256,7 +256,7 @@
  background: none;
 }
 .btn-group .button {
- margin-left: 250px;
+ margin-left: 180px;
  background-color: #030303;
  /* Green */
  border: 1px solid green;
@@ -270,7 +270,7 @@
  display: block;
 }
 .home-section h2{
-margin: 50px 0 0 250px;
+margin: 50px 0 0 200px;
 }
 
 .btn-group .button:not(:last-child) {
