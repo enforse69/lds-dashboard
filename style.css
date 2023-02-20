@@ -13,7 +13,7 @@
  left: 0;
  top: 0;
  height: 100%;
- width: 78px;
+ width: 98px;
  background: #11101D;
  padding: 6px 14px;
  z-index: 99;
@@ -239,7 +239,6 @@
 .sidebar li.profile .job {
  font-size: 12px;
 }
-
 .sidebar .profile #log_out {
  position: absolute;
  top: 50%;
@@ -252,27 +251,26 @@
  border-radius: 0px;
  transition: all 0.5s ease;
 }
-
 .sidebar.open .profile #log_out {
  width: 50px;
  background: none;
 }
-
+.sidebar.open~.home-section {
+ background-color: #bb3838;
+ left: 250px;
+ width: calc(100% - 250px);
+}
 .home-section {
  position: relative;
  min-height: 100vh;
- top: 20px;
- left: 78px;
- width: calc(100% - 78px);
+ top: 0px;
+ left: 98px;
+ width: calc(100% -98px);
  transition: all 0.5s ease;
  z-index: 2;
 }
 
-.sidebar.open~.home-section {
- background-color: #bb3838;
- left: 300px;
- width: calc(100% - 250px);
-}
+
 
 
 @media (max-width: 420px) {
