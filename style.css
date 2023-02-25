@@ -57,7 +57,7 @@ body{
  position: absolute;
  top: 50%;
  right: 0;
- transform: translateY(-50%);
+ /*transform: translateY(-50%);*/
  font-size: 22px;
  transition: all 0.4s ease;
  font-size: 23px;
@@ -253,12 +253,13 @@ body{
  height: 60px;
  line-height: 60px;
  border-radius: 0px;
- transition: all 0.5s ease;
+
 }
 
 .sidebar.open .profile #log_out {
  width: 50px;
  background: none;
+
 }
 
 
